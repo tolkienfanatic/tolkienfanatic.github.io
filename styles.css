@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/* Design based on http://www.maxdesign.com.au/articles/css-layouts/ */
 
 #container
 {
@@ -82,7 +83,7 @@
 
 #chat h3 { margin: 0; }
 
-#footer
+#statusdoc
 {
 	clear: left;
 	background: #ccc;
@@ -90,11 +91,18 @@
 	width: 100%;}
 }
 
-#footer iframe 
+#statusdoc iframe 
 {
 	/*position: absolute;*/
 	display: block;
 	height: 100%;
 	width: 100%;
+}
+
+#footer
+{
+	clear: left;
+	width: 100%;
+	text-align: center;
 }
 
